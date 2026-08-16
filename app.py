@@ -45,7 +45,7 @@ if submit_button:
         "availability_365": availability_365
     }
     
-    api_url = "https://mental-health-model-db6p.onrender.com/predict"
+    api_url = "https://room-type-classification-1.onrender.com/predict"
     
     try:
         with st.spinner("Connecting to FastAPI backend..."):
