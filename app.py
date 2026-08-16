@@ -45,7 +45,7 @@ if submit_button:
         "availability_365": availability_365
     }
     
-    api_url = "http://127.0.0.1:8000/predict"
+    api_url = "https://mental-health-model-db6p.onrender.com/predict"
     
     try:
         with st.spinner("Connecting to FastAPI backend..."):
